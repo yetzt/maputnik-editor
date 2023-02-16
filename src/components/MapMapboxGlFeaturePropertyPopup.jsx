@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Block from './Block'
-import FieldString from './FieldString'
+import InputString from './InputString'
 
 function displayValue(value) {
   if (typeof value === 'undefined' || value === null) return value;
@@ -16,14 +16,14 @@ function renderProperties(feature) {
   return Object.keys(feature.properties).map(propertyName => {
     const property = feature.properties[propertyName]
     return <Block key={propertyName} label={propertyName}>
-      <FieldString value={displayValue(property)} style={{backgroundColor: 'transparent'}}/>
+      <InputString value={displayValue(property)} style={{backgroundColor: 'transparent'}}/>
     </Block>
   })
 }
 
 function renderFeatureId(feature) {
   return <Block key={"feature-id"} label={"feature_id"}>
-    <FieldString value={displayValue(feature.id)} style={{backgroundColor: 'transparent'}} />
+    <InputString value={displayValue(feature.id)} style={{backgroundColor: 'transparent'}} />
   </Block>
   }
 
@@ -31,7 +31,7 @@ function renderFeature(feature, idx) {
   return <div key={`${feature.sourceLayer}-${idx}`}>
     <div className="maputnik-popup-layer-id">{feature.layer['source']}: {feature.layer['source-layer']}{feature.inspectModeCounter && <span> × {feature.inspectModeCounter}</span>}</div>
     <Block key={"property-type"} label={"$type"}>
-      <FieldString value={feature.geometry.type} style={{backgroundColor: 'transparent'}} />
+      <InputString value={feature.geometry.type} style={{backgroundColor: 'transparent'}} />
     </Block>
     {renderFeatureId(feature)}
     {renderProperties(feature)}

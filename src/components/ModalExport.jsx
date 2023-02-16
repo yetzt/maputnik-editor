@@ -14,7 +14,7 @@ import style from '../libs/style'
 import fieldSpecAdditional from '../libs/field-spec-additional'
 
 
-const MAPBOX_GL_VERSION = pkgLockJson.dependencies["mapbox-gl"].version;
+const MAPBOX_GL_VERSION = (pkgLockJson.packages[""] || pkgLockJson).dependencies["mapbox-gl"].version;
 
 
 export default class ModalExport extends React.Component {

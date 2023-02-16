@@ -21,7 +21,7 @@
     top: $toolbar-height + $toolbar-offset;
     left: 0;
     z-index: 3;
-    width: 200px;
+    width: 250px;
     background-color: $color-black;
   }
 
@@ -30,7 +30,7 @@
     bottom: 0;
     height: calc(100% - #{$toolbar-height + $toolbar-offset});
     top: $toolbar-height + $toolbar-offset;
-    left: 200px;
+    left: 250px;
     z-index: 1;
     width: 370px;
     background-color: $color-black;

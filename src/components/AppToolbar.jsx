@@ -274,10 +274,6 @@ export default class AppToolbar extends React.Component {
             <MdHelpOutline />
             <IconText>Help</IconText>
           </ToolbarLink>
-          <ToolbarLinkHighlighted href={"https://gregorywolanski.typeform.com/to/cPgaSY"}>
-            <MdAssignmentTurnedIn />
-            <IconText>Take the Maputnik Survey</IconText>
-          </ToolbarLinkHighlighted>
         </div>
       </div>
     </nav>

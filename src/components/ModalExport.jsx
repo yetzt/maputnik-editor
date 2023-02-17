@@ -33,7 +33,8 @@ export default class ModalExport extends React.Component {
     return format(
       style.stripAccessTokens(
         style.replaceAccessTokens(this.props.mapStyle)
-      )
+      ),
+      '\t'
     );
   }
 

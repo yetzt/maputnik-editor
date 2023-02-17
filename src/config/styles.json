@@ -2,13 +2,13 @@
   {
     "id": "shortbread-colors",
     "title": "Shortbread Colors",
-    "url": "https://tiles.versatiles.org/shortbread-colors.json",
-    "thumbnail": "https://tiles.versatiles.org/shortbread-colors.png"
+    "url": "https://tiles.versatiles.org/styles/shortbread-colors.json",
+    "thumbnail": "https://tiles.versatiles.org/styles/shortbread-colors.png"
   },
   {
     "id": "empty-style",
     "title": "Empty Style",
-    "url": "https://cdn.jsdelivr.net/gh/maputnik/editor@9cf74ca405d2be0608b57db8109cf3a6af5b9f49/src/config/empty-style.json",
+    "url": "https://tiles.versatiles.org/styles/shortbread-empty.json",
     "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAQAAAAHDYbIAAAAEUlEQVR42mP8/58BDhiJ4wAA974H/U5Xe1oAAAAASUVORK5CYII="
   }
 ]

@@ -630,6 +630,7 @@ export default class App extends React.Component {
       }
       else {
         sourceList[key] = this.state.sources[key] || this.state.mapStyle.sources[key];
+        if (sourceList[key].vector_layers) sourceList[key].layers = sourceList[key].vector_layers.map(l=>l.id);
       }
     }
 

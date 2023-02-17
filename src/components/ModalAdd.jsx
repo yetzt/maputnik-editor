@@ -80,7 +80,7 @@ export default class ModalAdd extends React.Component {
 
   getLayersForSource(source) {
     const sourceObj = this.props.sources[source] || {};
-    return sourceObj.layers || (sourceObj.vector_layers && sourceObj.vector_layers.map(l=>l.id)) || [];
+    return sourceObj.layers || [];
   }
 
   getSources(type) {

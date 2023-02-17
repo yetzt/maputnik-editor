@@ -42,7 +42,7 @@ export default class ModalExport extends React.Component {
     if(this.props.mapStyle.name) {
       return Slugify(this.props.mapStyle.name, {
         replacement: '_',
-        remove: /[*\-+~.()'"!:]/g,
+        remove: /[*+~.()'"!:]/g,
         lower: true
       });
     } else {

@@ -1,9 +1,21 @@
 [
   {
-    "id": "shortbread-colors",
-    "title": "Shortbread Colors",
-    "url": "https://tiles.versatiles.org/styles/shortbread-colors.json",
-    "thumbnail": "https://tiles.versatiles.org/styles/shortbread-colors.png"
+    "id": "colorful",
+    "title": "Colorful",
+    "url": "https://tiles.versatiles.org/styles/colorful.json",
+    "thumbnail": "https://tiles.versatiles.org/styles/colorful.png"
+  },
+  {
+    "id": "neutrino",
+    "title": "Neutrino",
+    "url": "https://tiles.versatiles.org/styles/neutrino.json",
+    "thumbnail": "https://tiles.versatiles.org/styles/neutrino.png"
+  },
+  {
+    "id": "eclipse",
+    "title": "Eclipse",
+    "url": "https://tiles.versatiles.org/styles/eclipse.json",
+    "thumbnail": "https://tiles.versatiles.org/styles/eclipse.png"
   },
   {
     "id": "empty-style",
